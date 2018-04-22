@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import MarkdownReducer from './reducer_markdown';
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state,
+  markdown: MarkdownReducer,
 });
 
 export default rootReducer;
