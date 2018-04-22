@@ -22,7 +22,6 @@ class MarkdownOutput extends Component {
   }
 
   insertMarkdown() {
-    console.log(this.props.markdown);
     return this.props.markdown;
   }
 
