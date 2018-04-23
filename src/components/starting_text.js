@@ -4,7 +4,7 @@ export default function StartingText() {
 
     I decided to try and create an experience that I am familiar with at this point, the GitHub-flavored Markdown Spec. I've been using it for every previous project, so why not create something with a similar feeling.
 
-    ## Examples of Working Markdown
+    # Examples of Working Markdown
 
     I've copied several examples from [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), mainly to see if everything is truly working correctly.
 
@@ -93,7 +93,7 @@ export default function StartingText() {
     The markdown, here, is being parsed and compiled into html by [Marked.js](https://github.com/markedjs/marked).  
     The syntax highlighting is being done by [Prism.js](https://github.com/PrismJS/prism).
 
-    By default Prism.js only loads \`markup\`, \`css\`, \`clike\`, and \`javascript\`. While there is an option to load more languages, I have decided to leave only these defaults, as I do not see myself using this project for much more than demonstration purposes.
+    By default Prism.js only loads \`markup\`, \`css\`, \`clike\`, and \`javascript\`. While there is an option to load more languages, I have decided to leave only these defaults, as I do not see myself using this project for much more than for demonstration purposes.
 
     This may cause syntax highlighting to be slightly different than how GitHub would highlight blocks of code.
 
@@ -116,7 +116,6 @@ export default function StartingText() {
         console.log('foo');
       }
       </script>
-
     </body>
     </html>
     \`\`\`
@@ -176,8 +175,7 @@ export default function StartingText() {
 
     Quote break.
 
-    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure
-    this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
 
     ---
 
@@ -186,7 +184,6 @@ export default function StartingText() {
     <dl>
       <dt>Definition list</dt>
       <dd>Is something people use sometimes.</dd>
-
       <dt>Markdown in HTML</dt>
       <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
     </dl>
@@ -198,15 +195,10 @@ export default function StartingText() {
     Three or more...
 
     ---
-
     Hyphens
-
     ***
-
     Asterisks
-
     ___
-
     Underscores
   `).replace(/^ {4}/gm, '').trimRight();
 }
