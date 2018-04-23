@@ -10,11 +10,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Markdown Previewer</h1>
+        <h1 id="markdown-title">Markdown Previewer</h1>
         <div className="row">
           <MarkdownInput />
           <MarkdownOutput />
         </div>
+        <footer className="footer text-muted">
+          <div className="footer-block">
+            Created and Designed by <a href="https://github.com/Squibs" target="_blank" rel="noopener noreferrer">Zachary Holman</a>
+          </div>
+        </footer>
       </div>
     );
   }

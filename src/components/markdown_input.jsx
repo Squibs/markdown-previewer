@@ -22,9 +22,8 @@ class MarkdownInput extends Component {
 
   render() {
     return (
-      <div className="col-6">
-        <h2>Markdown Input</h2>
-        <textarea id="editor" onChange={this.handleChange} defaultValue={StartingText()} />
+      <div className="col-12 col-md-6">
+        <textarea id="editor" className="col-12" onChange={this.handleChange} defaultValue={StartingText()} />
       </div>
     );
   }

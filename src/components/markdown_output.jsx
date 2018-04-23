@@ -27,8 +27,7 @@ class MarkdownOutput extends Component {
 
   render() {
     return (
-      <div className="col-6">
-        <h2>Markdown Output</h2>
+      <div className="col-12 col-md-6">
         <div className="markdown-body" id="preview" dangerouslySetInnerHTML={{ __html: this.insertMarkdown() }} />
       </div>
     );
