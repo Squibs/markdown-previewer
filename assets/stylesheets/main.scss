@@ -1,1 +1,54 @@
+html, body, .container-fluid {
+  height: 100%;
+}
 
+html, body {
+  background-color: #eee;
+}
+
+.container-fluid > div:first-child {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+#markdown-title {
+  font-family: 'rtRaleway';
+  display: flex;
+  flex: none;
+  justify-content: center;
+  text-align: center;
+}
+
+#editor {
+  resize: none;
+  height: 100%;
+  min-height: 45vh;
+  border: none;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#preview {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+  min-height: 20vh;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  @media screen and (max-width: 768px) {
+    margin-top: 15px;
+  }
+}
+
+.footer {
+  font-family: 'rtRaleway';
+  flex: none;
+  text-align: center;
+  margin-top: 15px;
+}
