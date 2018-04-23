@@ -1,7 +1,12 @@
 # Markdown Previewer
 
-A markdown previewer built with React I have created while going through the *Front End Framework Projects* on **beta freeCodeCamp**.
+A markdown previewer built with React and Redux, I have created while going through the *Front End Framework Projects* on **beta freeCodeCamp**.
 
+## Front End Libraries
+
+<img src="./screenshot-markdown-previewer.png" target="_blank" alt="Screenshot of my markdown previewer react project." width="auto" height="400" />
+
+### [Markdown Previewer]() (Click to view functional site)
 
 
 
@@ -40,4 +45,8 @@ to (just removed the leading space):
 .replace(/\s+/g, ' ') + 'language-' + language;
 ```
 
-Without this change the fCC test suite would not be able to detect the default markdown in the #editor field being rendered correctly on page load (test number 6 for Markdown Previewer tests).
+Without this change the fCC test suite would not be able to detect the default markdown in the #editor field being rendered correctly on page load (test number 6 for Markdown Previewer tests). Before the change, the html would end up looking like (with the leading spaces in the class property): 
+
+```
+<pre class="  language-javascript><code class="  language-javascript></code></pre>
+```
