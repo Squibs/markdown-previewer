@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.production.js",
-    "start": "webpack-dev-server --config webpack.development.js --hot"
+    "start": "webpack-dev-server --config webpack.development.js --hot",
+    "deploy": "yarn run build && gh-pages -d dist -b gh-pages -m Updates"
   },
   "keywords": [],
   "author": "Zachary Holman",
@@ -51,6 +52,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
+    "gh-pages": "^1.1.0",
     "github-markdown-css": "^2.10.0",
     "jquery": "^3.3.1",
     "lodash": "^4.17.5",
