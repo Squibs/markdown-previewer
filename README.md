@@ -2,7 +2,7 @@
 
 A markdown previewer built with React and Redux, I have created while going through the *Front End Framework Projects* on **beta freeCodeCamp**.
 
-## [Front End Libraries](https://github.com/Squibs/freeCodeCamp#freecodecamp) (Go Back to My freeCodeCamp Repository)
+## [Front End Libraries](https://github.com/Squibs/freeCodeCamp/blob/master/3.%20Front%20End%20Libraries/7.%20Front%20End%20Libraries%20Projects.md#front-end-libraries-projects) (Go Back to My freeCodeCamp Repository)
 
 <img src="./screenshot-markdown-previewer.png" target="_blank" alt="Screenshot of my markdown previewer react project." width="auto" height="400" />
 
